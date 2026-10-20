@@ -10,6 +10,8 @@ import com.vaadin.flow.data.value.ValueChangeMode;
 import com.vaadin.flow.router.Route;
 import org.springframework.util.StringUtils;
 
+import static jdk.internal.org.jline.terminal.Terminal.MouseTracking.Button;
+
 @Route
 public class MainView extends VerticalLayout {
 

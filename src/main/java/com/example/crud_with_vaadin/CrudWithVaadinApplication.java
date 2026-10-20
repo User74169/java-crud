@@ -19,11 +19,11 @@ public class CrudWithVaadinApplication {
     @Bean
     public CommandLineRunner loadData(CustomerRepository repository) {
         return (args) -> {
-            repository.save(new Customer("Jack", "Bauer"));
-            repository.save(new Customer("Chloe", "O'Brian"));
-            repository.save(new Customer("Kim", "Bauer"));
-            repository.save(new Customer("David", "Palmer"));
-            repository.save(new Customer("Michelle", "Dessler"));
+            repository.save(new Customer("Jack", "Bauer C12"));
+            repository.save(new Customer("Chloe", "O'Brian C13"));
+            repository.save(new Customer("Kim", "Bauer C14"));
+            repository.save(new Customer("David", "Palmer C15"));
+            repository.save(new Customer("Michelle", "Dessler C16"));
 
             log.info("Customers found with findAll():");
             for (Customer customer : repository.findAll()) {
